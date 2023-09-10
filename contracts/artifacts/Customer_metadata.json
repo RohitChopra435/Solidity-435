@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TheSmartWallet.sol": "Customer"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/TheSmartWallet.sol": {
+			"keccak256": "0x6c4df3554704daa7dfe9e547f4fb460e668b694136be7c9f8122097dd9a05069",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://abe24cd89a39d007166b10ab88d4ab5fd4f6d53fdb9b405e52e14d3f1d0f489c",
+				"dweb:/ipfs/QmY8ckXLkrpygzRbJZUMpivK4FER4ncZueQh9V1bnhZMjV"
+			]
+		}
+	},
+	"version": 1
+}

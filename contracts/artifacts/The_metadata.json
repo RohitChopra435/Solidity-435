@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_someAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "myAddr",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_myAddr",
+						"type": "address"
+					}
+				],
+				"name": "setAddress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TheBlockChainMessenger.sol": "The"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/TheBlockChainMessenger.sol": {
+			"keccak256": "0xd1b27978f90f2b101b572d1206e272ee10f6509d0ea8e2a61ba3f67e06f9982f",
+			"license": "GPL-3.0-or-later",
+			"urls": [
+				"bzz-raw://869ffd07f2f8ec1fbd84c91e9f9dbcb7b6761b2dc467d7a514e6f9cb9574bc3c",
+				"dweb:/ipfs/QmdDmDEVpgZhdqzueJQ5CcvzQZTsQbMAVCHoARU62uUhPk"
+			]
+		}
+	},
+	"version": 1
+}

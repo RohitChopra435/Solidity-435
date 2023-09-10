@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "afunction",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ExampleTryCatch.sol": "willThrow"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ExampleTryCatch.sol": {
+			"keccak256": "0x219d9afdb4bd0fe64758172cf5d73e47a76e5c0aa542e78264436fca9a00b699",
+			"license": "GPL-3.0-or-later",
+			"urls": [
+				"bzz-raw://25ff9108ac986d3597ae86dab5ca8f067e4256970f814865414fba226cd03dbb",
+				"dweb:/ipfs/QmXDh6xQaRXS1XHg5A9ZEFgWkrXzPxmaLNLG9B8mpx8e1W"
+			]
+		}
+	},
+	"version": 1
+}
